@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+body {
+    background: #2E2C23;
+    font-family: "Inter", sans-serif;
+    color:#5988FF;
+}
+h1 {   
+    text-align: center;
+}
+b {
+    color: #FD98FB;
+}
+li {
+    padding-top: 10px;
+    list-style-image: url('rhit.png');
+}
+.first {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 34px 6px rgba(255, 255, 255, 0.2);
+ 
+}
+@keyframes shadow {
+    0% {
+        box-shadow: 0px 0px 34px 6px rgba(255, 255, 255, 0.2);
+    }
+    100% {
+        box-shadow: 0px 0px 13px 6px rgba(253, 152, 251, 0.53);
+    }
+}
+.first:hover {
+    animation: shadow 2s infinite;
+    
+}
+
+.two {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 34px 6px rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+}
